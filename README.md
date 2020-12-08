@@ -34,3 +34,8 @@ limiter.Limit(() =>
     limiter.Register(3);
 });
 ```
+
+> You can aslo use it asynchronous by the following
+```c#
+await limiter.LimitAsync(() => Task.CompletedTask);
+```
