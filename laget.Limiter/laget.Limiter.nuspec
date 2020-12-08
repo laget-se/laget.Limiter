@@ -20,7 +20,6 @@
       <group targetFramework="netcoreapp2.1"></group>
       <group targetFramework="net48"></group>
       <group targetFramework="net472"></group>
-      <group targetFramework="net462"></group>
     </dependencies>
   </metadata>
   <files>
@@ -31,6 +30,5 @@
     <file src=".\bin\Release\netcoreapp2.1\*" target="lib\netcoreapp2.1\" />
     <file src=".\bin\Release\net48\*" target="lib\net48\" />
     <file src=".\bin\Release\net472\*" target="lib\net472\" />
-    <file src=".\bin\Release\net462\*" target="lib\net462\" />
   </files>
 </package>
