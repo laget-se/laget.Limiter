@@ -7,7 +7,7 @@
     <authors>gonace,laget.se</authors>
     <owners>laget.se</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>...</description>
+    <description>A generic rate limiter, Useful for API clients, web crawling, or other tasks that need to be throttled...</description>
     <summary></summary>
     <license type="expression">MIT</license>
     <projectUrl>https://github.com/laget-se/laget.Limiter</projectUrl>
