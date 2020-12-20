@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Linq;
-using laget.ACME.Limiter.Limits;
-using laget.ACME.Limiter.Stores;
+using laget.Limiter.Limits;
+using laget.Limiter.Stores;
 using Xunit;
 
-namespace laget.ACME.Limiter.Tests
+namespace laget.Limiter.Tests
 {
     public class CallTrackerTests
     {

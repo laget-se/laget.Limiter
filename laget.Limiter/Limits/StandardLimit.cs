@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace laget.ACME.Limiter.Limits
+namespace laget.Limiter.Limits
 {
     /// <summary>
     /// Limits the number of calls that can be made within a certain time period

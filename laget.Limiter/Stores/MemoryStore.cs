@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace laget.ACME.Limiter.Stores
+namespace laget.Limiter.Stores
 {
     public class MemoryStore : IStore
     {

@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using laget.ACME.Limiter.Limits;
-using laget.ACME.Limiter.Stores;
+using laget.Limiter.Limits;
+using laget.Limiter.Stores;
 
-namespace laget.ACME.Limiter
+namespace laget.Limiter
 {
     public class Tracker
     {

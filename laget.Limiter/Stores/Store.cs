@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace laget.ACME.Limiter.Stores
+namespace laget.Limiter.Stores
 {
     public interface IStore
     {

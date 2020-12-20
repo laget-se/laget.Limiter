@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace laget.ACME.Limiter.Limits
+namespace laget.Limiter.Limits
 {
     public abstract class Limit
     {

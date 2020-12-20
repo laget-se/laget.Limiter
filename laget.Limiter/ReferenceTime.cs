@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace laget.ACME.Limiter
+namespace laget.Limiter
 {
     public static class ReferenceTime
     {
