@@ -1,5 +1,7 @@
-﻿# laget.Limiter
+# laget.Limiter
 A generic rate limiter, Useful for API clients, web crawling, or other tasks that need to be throttled...
+
+![Nuget](https://img.shields.io/nuget/v/laget.Limiter)
 
 ## Configuration
 > This example is shown using Autofac, since this is the go to IoC for us.
