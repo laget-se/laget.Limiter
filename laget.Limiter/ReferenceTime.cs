@@ -4,7 +4,7 @@ namespace laget.Limiter
 {
     public static class ReferenceTime
     {
-        static Func<DateTime> _utcDateTime;
+        private static Func<DateTime> _utcDateTime;
 
         static ReferenceTime()
         {

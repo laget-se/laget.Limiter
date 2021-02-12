@@ -7,7 +7,7 @@ namespace laget.Limiter.Tests
 {
     public class StandardRateLimitTests
     {
-        readonly IStore _store;
+        private readonly IStore _store;
 
         public StandardRateLimitTests()
         {

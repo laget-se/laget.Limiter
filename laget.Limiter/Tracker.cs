@@ -7,7 +7,7 @@ namespace laget.Limiter
 {
     public class Tracker
     {
-        readonly IStore _store;
+        private readonly IStore _store;
 
         protected IEnumerable<DateTime> _history => _store.Get();
 
@@ -49,7 +49,7 @@ namespace laget.Limiter
             TrimToMostRecentCalls(rateLimit.Amount);
         }
 
-        void TrimToMostRecentCalls(int amount)
+        private void TrimToMostRecentCalls(int amount)
         {
             if (amount < 0)
             {

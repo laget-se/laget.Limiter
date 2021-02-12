@@ -8,7 +8,7 @@ namespace laget.Limiter.Tests
 {
     public class CallTrackerTests
     {
-        readonly IStore _store;
+        private readonly IStore _store;
 
         public CallTrackerTests()
         {

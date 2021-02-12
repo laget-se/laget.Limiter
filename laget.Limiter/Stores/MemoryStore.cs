@@ -6,7 +6,7 @@ namespace laget.Limiter.Stores
 {
     public class MemoryStore : IStore
     {
-        List<DateTime> _store;
+        private List<DateTime> _store;
 
         public MemoryStore()
         {

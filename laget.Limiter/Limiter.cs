@@ -31,7 +31,7 @@ namespace laget.Limiter
 
     public class Limiter : ILimiter
     {
-        static readonly object Lock;
+        private static readonly object Lock;
 
         public Tracker Tracker { get; }
 
@@ -112,7 +112,7 @@ namespace laget.Limiter
             return await limitedCall();
         }
 
-        int GetNextCallTime(int calls = 1)
+        private int GetNextCallTime(int calls = 1)
         {
             int nextCallTime;
 
