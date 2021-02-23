@@ -5,7 +5,7 @@ A generic rate limiter, Useful for API clients, web crawling, or other tasks tha
 ![Nuget](https://img.shields.io/nuget/dt/laget.Limiter)
 
 ## Configuration
-> This example is shown using Autofac, since this is the go to IoC for us.
+> This example is shown using Autofac since this is the go-to IoC for us.
 ```c#
 builder.Register<IAuthorizationLimit>(c =>
     new AuthorizationLimit(new MemoryStore(),
