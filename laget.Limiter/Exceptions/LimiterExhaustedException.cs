@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Linq;
-using laget.Limiter.Limits;
 
 namespace laget.Limiter.Exceptions
 {
