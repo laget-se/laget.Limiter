@@ -35,7 +35,7 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
-      run: dotnet build laget.Db.Mongo.Statistics/laget.Db.Mongo.Statistics.csproj --no-restore --configuration Release
+      run: dotnet build laget.Limiter/laget.Limiter.csproj --no-restore --configuration Release
     - name: Publish
       uses: laget-se/publish-nuget@v2.6.7
       with:
