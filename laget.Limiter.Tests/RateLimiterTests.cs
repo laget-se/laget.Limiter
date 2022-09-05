@@ -1,10 +1,10 @@
-﻿using System;
+﻿using laget.Limiter.Limits;
+using laget.Limiter.Stores;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using laget.Limiter.Limits;
-using laget.Limiter.Stores;
 using Xunit;
 
 namespace laget.Limiter.Tests
@@ -130,7 +130,7 @@ namespace laget.Limiter.Tests
                 return Task.CompletedTask;
             };
 
-            var rateLimitTimespan = TimeSpan.FromMilliseconds(200);
+            var rateLimitTimespan = TimeSpan.FromMilliseconds(500);
 
             var config = new Configuration();
             config.SetStore(_store);
