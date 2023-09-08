@@ -4,7 +4,7 @@
     <id>laget.Limiter</id>
     <title>laget.Limiter</title>
     <version>$version$</version>
-    <authors>gonace,laget.se</authors>
+    <authors>laget.se</authors>
     <owners>laget.se</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A generic rate limiter, Useful for API clients, web crawling, or other tasks that need to be throttled...</description>
