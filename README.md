@@ -42,3 +42,13 @@ limiter.Limit(() =>
 ```c#
 await limiter.LimitAsync(() => Task.CompletedTask);
 ```
+
+## Stores
+### Mongo
+> This example is shown using Autofac since this is the go-to IoC for us.
+```c#
+builder.Register<ISomeLimit>(c =>
+    new AuthorizationLimit(new MongoStore(new MongoUrl(c.Resolve<IConfiguration>().GetConnectionString("MongoConnectionString")), "authorization.calls"),
+        new StandardLimit(300, TimeSpan.FromHours(3)))
+).SingleInstance();
+```
